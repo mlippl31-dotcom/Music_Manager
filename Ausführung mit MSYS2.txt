@@ -1,0 +1,18 @@
+cd "C:\Software Engineering Labor\MusicManager\MusicManager" 			//--> Pfad angeben
+
+//-----------------------Programm ausführen-----------------------------------
+g++ -g -Wall -Wextra -std=c++17 MusicManager.cpp main.cpp -o main.exe  		//--> Main.exe erstellen, Programm ausführen
+./main.exe									//--> Main.exe ausführen
+				
+//----------------------Test-Units ausfüren--------------------------------------
+
+g++ -g -Wall -Wextra -std=c++17 MusicManager.cpp test.cpp -o test.exe		//--> test.exe erstellen, Tests ausführen
+./test.exe									//--> test.exe ausführen
+
+
+
+
+
+
+pwd	//-->Speicherpfad anzeigen
+ls -R	//-->Dateien in Ordner anzeigen
